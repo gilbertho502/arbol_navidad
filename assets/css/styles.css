@@ -54,9 +54,18 @@ pre span:last-child {
   font-family: "Lobster";
   font-weight: lighter;
 }
+.title {
+  color: transparent;
+  font-size: 400 px;
+  background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(100,255,0,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 
 .title:hover{
-    color: rgb(255, 0, 0);
+  background: linear-gradient(0deg, rgba(0,255,0,1) 0%, rgba(255,0,0,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 @keyframes fall {
